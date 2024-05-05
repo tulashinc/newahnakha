@@ -120,7 +120,7 @@ function HeaderNavbar() {
 					<Link to="/about">Media</Link>
 					<Link to="/gallery">
 						<div className="hover:bg-sky-700 hover:inline-block">Gallery</div>
-						<div className="bg-blue-800 py-2 flex">
+						<div className="bg-green-600 px-4 flex flex-col">
 							<a href="_blank">Ihee</a>
 							<a href="_blank">Yomari</a>
 							<a href="_blank">Pahan</a>
