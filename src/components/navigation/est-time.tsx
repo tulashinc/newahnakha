@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function EstTime() {
-	const [estTime, setEstTime] = useState(Date)
+	const [estTime, setEstTime] = useState()
 
 	const nyDate = new Date().toLocaleDateString('en-us', {
 		timeZone: 'America/New_York',
