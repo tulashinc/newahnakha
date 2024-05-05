@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-// import EstTime from './est-time'
-// import NstDateTime from './nst-date-time'
+import EstTime from './est-time'
+import NstDateTime from './nst-date-time'
 import Dropdown from './dropdown'
 
 function HeaderNavbar() {
@@ -41,7 +41,9 @@ function HeaderNavbar() {
 
 		<>
 			<div className="flex flex-wrap justify-between text-white h-16">
-				<div className="text-yellow-300 px-2">{/* <EstTime /> */}</div>
+				<div className="text-yellow-300 px-2">
+					<EstTime />
+				</div>
 				<div className="flex items-center gap-8 font-bold">
 					<Link className="h-16 py-5 px-3" to="/history">
 						History
@@ -125,7 +127,9 @@ function HeaderNavbar() {
 						</div>
 					</Link>
 				</div>
-				<div className="text-blue-400 px-2">{/* <NstDateTime /> */}</div>
+				<div className="text-blue-400 px-2">
+					<NstDateTime />
+				</div>
 				{/* <div>Hello World. This is my new world</div> */}
 			</div>
 		</>

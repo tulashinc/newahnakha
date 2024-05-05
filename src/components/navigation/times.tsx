@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 const Times = () => {
-	const [estTime, setEstTime] = useState()
-	const [nstTime, setNstTime] = useState()
+	const [estTime, setEstTime] = useState(Date)
+	const [nstTime, setNstTime] = useState(Date)
 
 	// const ESTTime = new Date().toLocaleTimeString('en-us', {
 	// 	timeZone: 'America/New_York',

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function NstTime() {
-	const [nstTime, setNstTime] = useState()
+	const [nstTime, setNstTime] = useState(Date)
 
 	const nepaDate = new Date().toLocaleDateString('en-us', {
 		timeZone: 'Asia/Kathmandu',
