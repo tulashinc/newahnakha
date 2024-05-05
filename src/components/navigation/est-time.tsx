@@ -1,38 +1,38 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 
-// function EstTime() {
-// 	const [estTime, setEstTime] = useState()
+function EstTime() {
+	const [estTime, setEstTime] = useState(Date)
 
-// 	const nyDate = new Date().toLocaleDateString('en-us', {
-// 		timeZone: 'America/New_York',
-// 	})
+	const nyDate = new Date().toLocaleDateString('en-us', {
+		timeZone: 'America/New_York',
+	})
 
-// 	const week_Day = new Date(nyDate).getDay()
-// 	const dayOfWeek = [
-// 		'Sunday',
-// 		'Monday',
-// 		'Tuesday',
-// 		'Wednesday',
-// 		'Thursday',
-// 		'Friday',
-// 		'Saturday',
-// 	]
+	const week_Day = new Date(nyDate).getDay()
+	const dayOfWeek = [
+		'Sunday',
+		'Monday',
+		'Tuesday',
+		'Wednesday',
+		'Thursday',
+		'Friday',
+		'Saturday',
+	]
 
-// 	const updateEstTime = () => {
-// 		const usEstTime = new Date().toLocaleTimeString('en-us', {
-// 			timeZone: 'America/New_York',
-// 		})
-// 		setEstTime(usEstTime)
-// 	}
-// 	setInterval(updateEstTime, 1000)
+	const updateEstTime = () => {
+		const usEstTime = new Date().toLocaleTimeString('en-us', {
+			timeZone: 'America/New_York',
+		})
+		setEstTime(usEstTime)
+	}
+	setInterval(updateEstTime, 1000)
 
-// 	return (
-// 		<div className="p-2">
-// 			{dayOfWeek[week_Day]}, {nyDate}
-// 			<br />
-// 			USA EST: {estTime}
-// 		</div>
-// 	)
-// }
+	return (
+		<div className="p-2">
+			{dayOfWeek[week_Day]}, {nyDate}
+			<br />
+			USA EST: {estTime}
+		</div>
+	)
+}
 
-// export default EstTime
+export default EstTime
