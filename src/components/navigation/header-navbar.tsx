@@ -116,14 +116,35 @@ function HeaderNavbar() {
 					</Link>
 				</div>
 				<div className="flex items-center gap-8 font-bold">
-					<Link to="/contact">Contact Us</Link>
-					<Link to="/about">Media</Link>
-					<Link to="/gallery">
-						<div className="hover:bg-sky-700 hover:inline-block">Gallery</div>
-						<div className="bg-green-200 px-6 flex flex-col">
-							<a href="_blank">Ihee</a>
-							<a href="_blank">Yomari</a>
-							<a href="_blank">Pahan</a>
+					<Link className="h-16 py-5 px-3" to="/contact">
+						Contact Us
+					</Link>
+					<Link className="h-16 py-5 px-3" to="/about">
+						Media
+					</Link>
+					<Link className="h-16 py-5 px-3" to="/gallery">
+						<div className="hover:bg-sky-700 hover:inline-block relative">
+							Gallery
+						</div>
+						<div className="flex flex-col absolute shadow-2xl py-5 text-red-800">
+							<a
+								className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
+								href="_blank"
+							>
+								Ihee
+							</a>
+							<a
+								className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
+								href="_blank"
+							>
+								Yomari
+							</a>
+							<a
+								className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
+								href="_blank"
+							>
+								Pahan Chahre
+							</a>
 						</div>
 					</Link>
 				</div>
