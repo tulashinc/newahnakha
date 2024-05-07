@@ -5,7 +5,7 @@ function Footer() {
 		<>
 			<div>
 				<Link to="/">
-					<img src="Logo.jpg" className="h-10 ml-5"></img>
+					<img src="Logo.png" className="h-10 ml-5"></img>
 				</Link>
 			</div>
 			<div>Home</div>
