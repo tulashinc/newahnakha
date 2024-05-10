@@ -5,47 +5,13 @@ import Dropdown from './dropdown'
 
 function HeaderNavbar() {
 	return (
-		// <div className="flex items-center">
-		// 	<div className="text-yellow-300 font-bold px-2 py-2">
-		// 		<EstTime />
-		// 	</div>
-
-		// 	<div className="flex justify-between py-2 px-16 text-white text-2xl font-bold">
-		// 		{/* <div className="flex items-center w-full gap-8"> */}
-		// 		{/* <Link to="/">Home</Link> */}
-		// 		<div className="flex">
-		// 			<Link to="/history">History</Link>
-		// 			<Link to="/events">Events</Link>
-		// 			<Link to="/messages">Messages</Link>
-		// 		</div>
-		// 		<div className="px-10">
-		// 			<Link to="/">
-		// 				<img
-		// 					src="Logo_Background.jpg"
-		// 					className="h-28 absolute top-0 rounded-3xl"
-		// 				/>
-		// 			</Link>
-		// 		</div>
-		// 		<div>
-		// 			<Link to="/contact">Contact Us</Link>
-		// 			<Link to="/about">About Us</Link>
-		// 			<Link to="/gallery">Gallery</Link>
-		// 		</div>
-		// 		{/* </div> */}
-		// 	</div>
-
-		// 	<div className="text-blue-500 font-bold px-10 py-2">
-		// 		<NstDateTime />
-		// 	</div>
-		// </div>
-
 		<>
 			<div className="flex flex-wrap justify-between text-white h-16">
 				<div className="text-yellow-300 px-2">
 					<EstTime />
 				</div>
 				<div className="flex items-center gap-8 font-bold">
-					<Link className="h-16 py-5 px-3" to="/history">
+					<Link className="h-16 py-5 px-1" to="/history">
 						History
 						<div
 							id="dropdownHover"
@@ -99,10 +65,10 @@ function HeaderNavbar() {
 						</div>
 						{/* </div> */}
 					</Link>
-					<Link className="h-16 py-5 px-3" to="/events">
+					<Link className="h-16 py-5 px-1 hover:bg-green-700" to="/events">
 						Events
 					</Link>
-					<Link className="h-16 py-5 px-3 hover:visible" to="/messages">
+					<Link className="h-16 py-5 px-1 hover:block" to="/messages">
 						Messages
 						<Dropdown />
 					</Link>
@@ -116,13 +82,13 @@ function HeaderNavbar() {
 					</Link>
 				</div>
 				<div className="flex items-center gap-8 font-bold">
-					<Link className="h-16 py-5 px-3" to="/contact">
+					<Link className="h-16 py-5 px-1" to="/contact">
 						Contact Us
 					</Link>
-					<Link className="h-16 py-5 px-3" to="/about">
+					<Link className="h-16 py-5 px-1" to="/about">
 						Media
 					</Link>
-					<Link className="h-16 py-5 px-3" to="/gallery">
+					<Link className="h-16 py-5 px-1" to="/gallery">
 						<div className="hover:bg-sky-700 hover:inline-block relative">
 							Gallery
 						</div>

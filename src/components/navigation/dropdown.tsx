@@ -1,13 +1,22 @@
+import { Link } from 'react-router-dom'
+
 function Dropdown() {
 	return (
 		<div>
-			<div className="absolute text-red-800 min-w-44 mt-5 flex flex-col justify-center shadow-xl">
-				<a
+			<div className="absolute text-red-800 min-w-44 mt-5 flex flex-col justify-center shadow-2xl">
+				{/* <a
 					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
 					href="./messages/president"
+				> */}
+
+				<Link
+					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
+					to="/messages/president"
 				>
 					President
-				</a>
+				</Link>
+				{/* President
+				</a> */}
 				<a
 					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
 					href="./messages/president"

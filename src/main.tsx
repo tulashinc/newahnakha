@@ -10,6 +10,7 @@ import About from './pages/about/about'
 import Contact from './pages/contact-us/contact'
 import Gallery from './pages/gallery/gallery'
 import NotFound from './pages/not-found/not-found'
+import PresidentMessage from './pages/messages/president'
 
 const router = createBrowserRouter([
 	{
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 	{
 		path: '/messages',
 		element: <Messages />,
+	},
+	{
+		path: '/messages/president',
+		element: <PresidentMessage />,
 	},
 	{
 		path: '/contact',
