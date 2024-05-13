@@ -5,7 +5,12 @@ function Home() {
 	return (
 		<Container>
 			<p className="text-2xl py-4">Newah Nakha New York - Homepage</p>
-
+			<div className="flex justify-center items-center relative">
+				<img
+					src="../../Logo.png"
+					className="opacity-10 absolute top-0 rounded-3xl"
+				/>
+			</div>
 			<Heading
 				title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nisi necessitatibus iste voluptate tenetur facere, maxime voluptates aliquam aut magnam velit inventore distinctio quo consequuntur animi mollitia! Est, fugit ipsa.
 		Sunt animi dolorem alias asperiores nisi, nemo nihil at expedita vero aliquid unde quo! Veritatis consequatur numquam voluptates, soluta quibusdam maxime neque eveniet odio harum aut dolorum natus architecto sunt.
