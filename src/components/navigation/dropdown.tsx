@@ -10,33 +10,39 @@ function Dropdown() {
 				> */}
 
 				<Link
-					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
+					className="bg-amber-200 flex hover:bg-amber-300 hover:text-orange-600 px-6 p-1"
 					to="/messages/president"
 				>
 					President
 				</Link>
 				{/* President
 				</a> */}
-				<a
+				{/* <a
 					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
-					href="./messages/president"
+					href="./messages/vice-president"
 				>
 					Vice President
-				</a>
-				<a
-					className="bg-amber-100 flex hover:bg-amber-300 px-6 p-1"
-					href="./messages/president"
+				</a> */}
+				<Link
+					className="bg-amber-200 flex hover:bg-amber-300 hover:text-orange-400 px-6 p-1"
+					to="/messages/vice-president"
+				>
+					Vice President
+				</Link>
+				<Link
+					className="bg-amber-100 flex hover:bg-amber-300 hover:text-blue-700 px-6 p-1"
+					to="/messages/general-secretary"
 				>
 					General Secretary
-				</a>
+				</Link>
 				<a
-					className="bg-green-200 flex hover:bg-green-300 px-6 p-1"
+					className="bg-green-200 flex hover:bg-green-300 hover:text-blue-700 px-6 p-1"
 					href="./messages/president"
 				>
 					Secretary
 				</a>
 				<a
-					className="bg-green-200 flex hover:bg-green-300 px-6 p-1"
+					className="bg-green-200 flex hover:bg-green-300 hover:text-orange-400 px-6 p-1"
 					href="./messages/president"
 				>
 					Advisor

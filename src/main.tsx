@@ -11,6 +11,8 @@ import Contact from './pages/contact-us/contact'
 import Gallery from './pages/gallery/gallery'
 import NotFound from './pages/not-found/not-found'
 import PresidentMessage from './pages/messages/president'
+import VicePresident from './pages/messages/vice-president'
+import GeneralSecretary from './pages/messages/general-secretary'
 
 const router = createBrowserRouter([
 	{
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
 	{
 		path: '/messages/president',
 		element: <PresidentMessage />,
+	},
+	{
+		path: '/messages/vice-president',
+		element: <VicePresident />,
+	},
+	{
+		path: '/messages/general-secretary',
+		element: <GeneralSecretary />,
 	},
 	{
 		path: '/contact',

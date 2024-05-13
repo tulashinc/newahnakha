@@ -1,12 +1,23 @@
 import Container from '../../components/container/container'
-import MessageHeading from './message-heading'
+// import MessageHeading from './message-heading'
 
 function PresidentMessage() {
 	return (
 		<Container>
-			<MessageHeading title="Message from the Presidet" />
-			<p>
-				<h3>Welcome to Newah Nakha New York</h3>
+			<div className="h-16 py-2 m-2 text-rose-700 text-2xl font-bold">
+				President's Message
+			</div>
+			<span className="m-2 text-amber-600 text-xl font-bold">
+				Welcome to NNN
+			</span>
+			{/* <MessageHeading title="Message from the Presidet" /> */}
+			<div className="flex justify-center items-center relative">
+				<img
+					src="../../Logo.png"
+					className="opacity-10 absolute top-0 rounded-3xl"
+				/>
+			</div>
+			<p className="z-10 px-2 py-3 text-lg">
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam sequi
 				illum repudiandae, rerum et suscipit in tenetur quibusdam corporis
 				obcaecati neque. Eos natus provident culpa, ducimus porro sit cum

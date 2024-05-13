@@ -12,9 +12,9 @@ function HeaderNavbar() {
 				</div>
 				<div className="flex items-center gap-8 font-bold">
 					<Link className="h-16 py-5 px-1" to="/history">
-						History
+						History ˅
 						<div
-							id="dropdownHover"
+							// id="dropdownHover"
 							className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
 						>
 							<ul
@@ -68,9 +68,19 @@ function HeaderNavbar() {
 					<Link className="h-16 py-5 px-1 hover:bg-green-700" to="/events">
 						Events
 					</Link>
-					<Link className="h-16 py-5 px-1 hover:block" to="/messages">
+
+					<Link
+						id="parent"
+						// onMouseOverCapture={toggleMenu}
+						// onFocus={toggleMenu}
+						// onMouseOver={toggleMenu}
+						className="h-16 py-5 px-1 hover:bg-amber-300"
+						to="/messages"
+					>
 						Messages
-						<Dropdown />
+						<div id="dropdownHover" className="">
+							<Dropdown />
+						</div>
 					</Link>
 				</div>
 				<div>

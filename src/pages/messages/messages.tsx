@@ -14,7 +14,9 @@ function Messages() {
 						{/* </a> */}
 					</Link>
 				</li>
-				<li>From Gerenal Secretary</li>
+				<li>
+					<Link to="/messages/vice-president">Vice President</Link>
+				</li>
 				<li>From Treasurer</li>
 				<li>From Immediate President</li>
 			</ul>
