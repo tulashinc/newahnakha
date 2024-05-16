@@ -9,10 +9,6 @@ function NstTime() {
 		timeZone: 'Asia/Kathmandu',
 	})
 
-	// const week_Day = new Date().toLocaleDateString('en-us', {
-	// 	timeZone: 'Asia/Kathmandu',
-	// })
-
 	const week_Day = new Date(npDate).getDay()
 	const dayOfWeek = [
 		'Sunday',
@@ -24,11 +20,6 @@ function NstTime() {
 		'Saturday',
 	]
 
-	// const updateEstTime = () => {
-	// 	const usEstTime = new Date().toLocaleTimeString('en-us', {
-	// 		timeZone: 'America/New_York',
-	// 	})
-
 	useEffect(() => {
 		const id = tickTime()
 		return () => clearTimeout(id)
@@ -36,7 +27,9 @@ function NstTime() {
 
 	const tickTime = () => {
 		return setInterval(() => {
-			setNstTime(() => nstTime)
+			setNstTime(() =>
+				new Date().toLocaleTimeString('en-us', { timeZone: 'Asia/Kathmandu' })
+			)
 		}, 1000)
 	}
 
