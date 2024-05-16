@@ -1,20 +1,21 @@
-import Container from '../../components/container/container'
+import Container from '../../components/container/Container.1'
 
 function GeneralSecretary() {
 	return (
 		<Container>
-			<div className="h-16 py-2 m-2 text-rose-700 text-2xl font-bold">
-				General Secretary has to say
-			</div>
-			<span className="m-2 text-amber-600 text-xl font-bold">
-				Welcome to NNN
-			</span>
 			<div className="flex justify-center items-center relative">
 				<img
 					src="../../Logo.png"
 					className="opacity-10 absolute top-0 rounded-3xl"
 				/>
 			</div>
+			<div className="h-16 py-2 m-2 text-rose-700 text-2xl font-bold">
+				General Secretary has to say
+			</div>
+			<span className="m-2 text-amber-600 text-xl font-bold">
+				Welcome to NNN
+			</span>
+
 			<p className="z-10 px-2 py-3 text-lg">
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro alias,
 				animi natus corrupti sed delectus earum beatae repellat reiciendis eaque

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Container from '../../components/container/container'
+import Container from '../../components/container/Container.1'
 
 function Messages() {
 	return (

@@ -1,8 +1,14 @@
-import Container from '../../components/container/container'
+import Container from '../../components/container/Container.1'
 
 function NotFound() {
 	return (
 		<Container>
+			<div className="flex justify-center items-center relative">
+				<img
+					src="../../Logo.png"
+					className="opacity-10 absolute top-0 rounded-3xl"
+				/>
+			</div>
 			<div className="min-h-screen flex flex-grow items-center justify-center ">
 				<div className="rounded-lg bg-white p-8 text-center shadow-xl">
 					<h1 className="mb-4 text-4xl font-bold">404</h1>

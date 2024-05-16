@@ -1,4 +1,4 @@
-import Container from '../../components/container/container'
+import Container from '../../components/container/Container.1'
 
 function Events() {
 	return <Container>Upcoming Events</Container>

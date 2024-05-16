@@ -1,4 +1,4 @@
-import Container from '../container/container'
+import Container from '../container/Container.1'
 
 function Test() {
 	return (
