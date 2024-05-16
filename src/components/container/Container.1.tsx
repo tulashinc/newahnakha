@@ -13,12 +13,12 @@ export function ContainerN({ children }: IContainer) {
 			<div className="bg-red-900 sticky top-0 z-index-50">
 				<HeaderNavbar />
 			</div>
-			<div className="flex justify-center items-center relative">
+			{/* <div className="flex justify-center items-center relative">
 				<img
 					src="../../Logo.png"
 					className="opacity-10 absolute top-0 rounded-3xl"
 				/>
-			</div>
+			</div> */}
 			<div className="grid grid-cols-4 gap-4 bg-rose-100 min-h-screen p-5">
 				<div className="col-span-3">{children}</div>
 				<div className="bg-green-100">
