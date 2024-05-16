@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function NstTime() {
+function NstDateTime() {
 	const [nstTime, setNstTime] = useState(Date)
 
 	const nepaDate = new Date().toLocaleDateString('en-us', {
@@ -35,4 +35,4 @@ function NstTime() {
 	)
 }
 
-export default NstTime
+export default NstDateTime

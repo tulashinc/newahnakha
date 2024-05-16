@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import EstTime from './est-time'
-import NstDateTime from './nst-date-time'
 import Dropdown from './dropdown'
+import NstTime from './nst-time'
 
 function HeaderNavbar() {
 	return (
@@ -74,7 +74,9 @@ function HeaderNavbar() {
 						// onMouseOverCapture={toggleMenu}
 						// onFocus={toggleMenu}
 						// onMouseOver={toggleMenu}
-						className="h-16 py-5 px-1 hover:bg-amber-300"
+						// hover:bg-amber-300
+						//   before:b-0 before:l-0 befoer:h-3 before:w-0%
+						className="h-16 py-5 px-1  before:absolute before:bg-red-600 before:left-0 before:bottom-0 before:h-3 before:w-3"
 						to="/messages"
 					>
 						Messages
@@ -125,7 +127,8 @@ function HeaderNavbar() {
 					</Link>
 				</div>
 				<div className="text-blue-400 px-2">
-					<NstDateTime />
+					{/* <NstDateTime /> */}
+					<NstTime />
 				</div>
 				{/* <div>Hello World. This is my new world</div> */}
 			</div>

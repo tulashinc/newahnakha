@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function EstTime() {
-	const [estTime, setEstTime] = useState(Date)
+	const [estTime, setEstTime] = useState(
+		new Date().toLocaleTimeString('en-us', { timeZone: 'America/New_York' })
+	)
 
 	const nyDate = new Date().toLocaleDateString('en-us', {
 		timeZone: 'America/New_York',
@@ -18,13 +20,18 @@ function EstTime() {
 		'Saturday',
 	]
 
-	const updateEstTime = () => {
-		const usEstTime = new Date().toLocaleTimeString('en-us', {
-			timeZone: 'America/New_York',
-		})
-		setEstTime(usEstTime)
+	useEffect(() => {
+		const id = tickTime()
+		return () => clearTimeout(id)
+	}, [])
+
+	const tickTime = () => {
+		return setInterval(() => {
+			setEstTime(() =>
+				new Date().toLocaleTimeString('en-us', { timeZone: 'America/New_York' })
+			)
+		}, 1000)
 	}
-	setInterval(updateEstTime, 1000)
 
 	return (
 		<div className="p-2">
