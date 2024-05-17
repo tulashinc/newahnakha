@@ -87,7 +87,7 @@ function HeaderNavbar() {
 				<div>
 					<Link to="/">
 						<img
-							src="Logo_Background_1.jpg"
+							src="/Logo_Background_1.jpg"
 							className="h-32 absolute top-0 rounded-3xl"
 						/>
 					</Link>
