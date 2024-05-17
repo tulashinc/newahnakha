@@ -1,4 +1,4 @@
-import Container from '../../components/container/Container.1'
+import Container from '../../components/container/container'
 
 function GeneralSecretary() {
 	return (

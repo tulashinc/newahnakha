@@ -4,27 +4,14 @@ function Dropdown() {
 	return (
 		<div>
 			<div className="absolute text-red-800 min-w-44 mt-5 flex flex-col justify-center shadow-2xl">
-				{/* <a
-					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
-					href="./messages/president"
-				> */}
-
 				<Link
 					className="bg-amber-200 flex hover:bg-amber-300 hover:text-orange-600 px-6 p-1"
 					to="/messages/president"
 				>
 					President
 				</Link>
-				{/* President
-				</a> */}
-				{/* <a
-					className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
-					href="./messages/vice-president"
-				>
-					Vice President
-				</a> */}
 				<Link
-					className="bg-amber-200 flex hover:bg-amber-300 hover:text-orange-400 px-6 p-1"
+					className="bg-amber-200 flex hover:bg-amber-300 hover:text-orange-600 px-6 p-1"
 					to="/messages/vice-president"
 				>
 					Vice President
@@ -35,18 +22,24 @@ function Dropdown() {
 				>
 					General Secretary
 				</Link>
-				<a
+				<Link
 					className="bg-green-200 flex hover:bg-green-300 hover:text-blue-700 px-6 p-1"
-					href="./messages/president"
+					to="./messages/president"
 				>
 					Secretary
-				</a>
-				<a
+				</Link>
+				<Link
 					className="bg-green-200 flex hover:bg-green-300 hover:text-orange-400 px-6 p-1"
-					href="./messages/president"
+					to="./messages/treasurer"
+				>
+					Treasurer
+				</Link>
+				<Link
+					className="bg-green-200 flex hover:bg-green-300 hover:text-orange-400 px-6 p-1"
+					to="./messages/advisor"
 				>
 					Advisor
-				</a>
+				</Link>
 			</div>
 		</div>
 	)

@@ -1,4 +1,5 @@
-import Container from '../../components/container/Container.1'
+import { Link } from 'react-router-dom'
+import Container from '../../components/container/container'
 
 function NotFound() {
 	return (
@@ -15,13 +16,12 @@ function NotFound() {
 					<p className="text-gray-600">
 						Oops! The page you are looking for could not be found.
 					</p>
-					<a
-						href="/"
+					<Link
+						to="/"
 						className="mt-4 inline-block rounded bg-blue-500 px-4 py-2 font-semibold text-white hover:bg-blue-600"
 					>
-						{' '}
-						Go back to Home{' '}
-					</a>
+						Go back to Home
+					</Link>
 				</div>
 			</div>
 		</Container>

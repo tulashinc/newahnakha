@@ -70,7 +70,6 @@ function HeaderNavbar() {
 					</Link>
 
 					<Link
-						id="parent"
 						// onMouseOverCapture={toggleMenu}
 						// onFocus={toggleMenu}
 						// onMouseOver={toggleMenu}
@@ -80,7 +79,7 @@ function HeaderNavbar() {
 						to="/messages"
 					>
 						Messages
-						<div id="dropdownHover" className="">
+						<div>
 							<Dropdown />
 						</div>
 					</Link>
