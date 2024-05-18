@@ -13,8 +13,12 @@ function Messages() {
 				<li>
 					<Link to="/messages/vice-president">Vice President</Link>
 				</li>
-				<li>From Treasurer</li>
-				<li>From Immediate President</li>
+				<li>
+					<Link to="/messages/general-secretary">General Secretary</Link>
+				</li>
+				<li>
+					<Link to="/messages/secretary">Secretary</Link>
+				</li>
 			</ul>
 		</Container>
 	)

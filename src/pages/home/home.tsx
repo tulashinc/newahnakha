@@ -10,7 +10,9 @@ function Home() {
 					className="opacity-10 absolute top-0 rounded-3xl"
 				/>
 			</div>
-			<p className="text-2xl py-4">Newah Nakha New York - Homepage</p>
+			<p className="text-2xl py-4 text-amber-600 font-bold">
+				Newah Nakha New York - Homepage
+			</p>
 			<Heading
 				title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nisi necessitatibus iste voluptate tenetur facere, maxime voluptates aliquam aut magnam velit inventore distinctio quo consequuntur animi mollitia! Est, fugit ipsa.
 		Sunt animi dolorem alias asperiores nisi, nemo nihil at expedita vero aliquid unde quo! Veritatis consequatur numquam voluptates, soluta quibusdam maxime neque eveniet odio harum aut dolorum natus architecto sunt.

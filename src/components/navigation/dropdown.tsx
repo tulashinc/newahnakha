@@ -24,19 +24,19 @@ function Dropdown() {
 				</Link>
 				<Link
 					className="bg-green-200 flex hover:bg-green-300 hover:text-blue-700 px-6 p-1"
-					to="./messages/president"
+					to="/messages/president"
 				>
 					Secretary
 				</Link>
 				<Link
 					className="bg-green-200 flex hover:bg-green-300 hover:text-orange-400 px-6 p-1"
-					to="./messages/treasurer"
+					to="/messages/treasurer"
 				>
 					Treasurer
 				</Link>
 				<Link
 					className="bg-green-200 flex hover:bg-green-300 hover:text-orange-400 px-6 p-1"
-					to="./messages/advisor"
+					to="/messages/advisor"
 				>
 					Advisor
 				</Link>

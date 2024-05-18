@@ -103,7 +103,7 @@ function HeaderNavbar() {
 						<div className="hover:bg-sky-700 hover:inline-block relative">
 							Gallery
 						</div>
-						<div className="flex flex-col absolute shadow-2xl py-5 text-red-800">
+						{/* <div className="flex flex-col absolute shadow-2xl py-5 text-red-800">
 							<a
 								className="bg-amber-200 flex hover:bg-amber-300 px-6 p-1"
 								href="_blank"
@@ -122,7 +122,7 @@ function HeaderNavbar() {
 							>
 								Pahan Chahre
 							</a>
-						</div>
+						</div> */}
 					</Link>
 				</div>
 				<div className="text-blue-400 px-2">
